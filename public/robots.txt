@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://losangelesheraldexaminer.com/sitemap.xml
