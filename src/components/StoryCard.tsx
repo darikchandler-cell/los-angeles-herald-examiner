@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import type { Article } from '@/data/articles';
 import { imageFor, formatStamp } from '@/data/articles';
+import { Byline } from '@/components/Byline';
 
 function Kicker({ article }: { article: Article }) {
   return (
@@ -38,7 +39,7 @@ export function HeroStory({ article }: { article: Article }) {
           {article.dek}
         </p>
         <p className="mt-4 text-xs uppercase tracking-widest text-terra">
-          {article.byline} — {article.dateline} —{' '}
+          <Byline byline={article.byline} /> — {article.dateline} —{' '}
           {formatStamp(article.publishedAt)} — {article.readMinutes} min read
         </p>
       </div>

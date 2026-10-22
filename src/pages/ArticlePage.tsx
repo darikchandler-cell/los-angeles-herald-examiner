@@ -3,6 +3,7 @@ import { TopBar, Masthead, Footer } from '@/components/Chrome';
 import { StoryCard, DoubleRule } from '@/components/StoryCard';
 import { ShareRow } from '@/components/Extras';
 import { getArticle, ARTICLES, imageFor, formatStamp } from '@/data/articles';
+import { Byline } from '@/components/Byline';
 
 export default function ArticlePage() {
   const { id } = useParams<{ id: string }>();
@@ -58,8 +59,8 @@ export default function ArticlePage() {
           {article.dek}
         </p>
         <div className="mt-6 border-y-2 border-terra/60 py-3 text-center text-xs uppercase tracking-widest text-plum/70">
-          {article.byline} — {article.dateline} — {article.readMinutes} min
-          read
+          <Byline byline={article.byline} /> — {article.dateline} —{' '}
+          {article.readMinutes} min read
         </div>
         <p className="mt-2 text-center text-[11px] uppercase tracking-widest text-plum/50">
           Published {formatStamp(article.publishedAt)}
