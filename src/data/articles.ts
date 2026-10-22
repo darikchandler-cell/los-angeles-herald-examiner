@@ -614,6 +614,27 @@ export const ARTICLES: Article[] = [
       'A coalition of residents and preservationists is petitioning to expand the historic overlay, and a city council motion would tie anti-displacement funds to historic districts citywide. On the porches, the watching continues.',
     ],
   },
+  {
+    id: 'vegas-trade-show-roundup-october-2026',
+    section: 'Business',
+    headline:
+      'Las Vegas Trade Shows: An Early Look at October’s New Products',
+    dek: 'Electrical gear at the NECA Convention, resort gifts in South Hall, and convenience items at the NACS Show — a floor overview, and the start of a roundup with more hands-on coverage to come.',
+    byline: 'By DJ Henderson',
+    dateline: 'LAS VEGAS',
+    readMinutes: 6,
+    publishedAt: '2026-10-10T06:15:00',
+    body: [
+      'LAS VEGAS — Three industry shows landed in Las Vegas in the first nine days of October, close enough on the calendar that a buyer could move from electrical gear to souvenir counters to convenience-store aisles without leaving the city. The NECA Convention ran October 4 through 7 at Mandalay Bay. The Las Vegas Souvenir & Resort Gift Show ran October 6 through 9 in the Las Vegas Convention Center South Hall. The NACS Show ran October 7 through 9 at the Las Vegas Convention Center. This is a show-floor overview of products exhibited at those three events, and the first installment of an ongoing Herald Examiner roundup, with more hands-on coverage to come.',
+      'The overlap is why the three floors belong in one story. October 6 and 7 were the days the calendars met: NECA still open at Mandalay Bay, the gift show open in South Hall, and, on the 7th, the NACS Show open at the convention center. The rooms are not one industry. A panelboard kit and a lip balm do not belong on the same shelf, and this paper is not going to write them as if they do. They belonged, this month, to the same week in Las Vegas.',
+      'At Mandalay Bay, the products noted at the NECA Convention were NOARK Electric’s UL67 Panelboard Components Kit, Leviton’s Decora Smart 60A Controller, and Panduit’s MP550 PXE mobile printer. Klein Tools exhibited the Ratcheting FastBit Tru-Grip Screwdriver. DEWALT exhibited the SlideLock pliers set. FallTech exhibited the FT-R Arc Flash SRL-R. Those are the names as they were identified on the floor. Specifications, prices, and any report on how the equipment performs wait for a later installment.',
+      'The gift show shared the end of that week. In South Hall, Giddyup Gear exhibited the Giddyup Glove, Mad Gabs exhibited Moose Smooch lip balm, and Honey House Naturals exhibited the Bee Bar. Twistamals exhibited Twistamals. Pocket Products exhibited Pocket Perfume and Pocket Cologne. Pinch Me Therapy Dough exhibited Pinch Me Therapy Dough. The hall is built for resort shops and souvenir buyers, and this first note stops at the product names.',
+      'At the NACS Show, the products noted in this pass were Archer Cowboy Cut Beef Jerky, from Archer; Nerds Gummy Clusters, from Ferrara Candy Company; Mike’s Hot Honey syrup, from Mike’s Hot Honey; and the Mega Chamoy Pickle, from Van Holten’s. OLIPOP exhibited OLIPOP Shirley Temple and Crisp Apple. PepsiCo exhibited Pepsi Strawberry Shortcake. The convenience show is where those names were on the floor. A tasting, an ingredient list, and a price are not part of this story.',
+      'Los Angeles is not the host city, but it is a practical market for much of what moves through those halls. Electrical distributors supply job sites from the harbor to the Valley. Resort and gift shops line the coast and the tourist corridors. Convenience stores sit on corners in nearly every neighborhood this paper covers. A product exhibited in Las Vegas in October is not, by that fact alone, a product stocked in Los Angeles the same month. The reason to write the floors down now is narrower: to record which exhibitors and which products were in the rooms, so later stories have a list to return to.',
+      'The roundup will stay in that order. Later installments are meant to go back to individual companies for a closer look, including hands-on coverage where there is a product to handle and nothing further to guess at. Until those stories are reported, this one is an inventory of a crowded week. The dates are the show dates. The venues are Mandalay Bay and the Las Vegas Convention Center, with the souvenir and resort gift show in South Hall. The products are the ones named above, from exhibitors at those shows.',
+      'More of the October circuit remains to be written. The Herald Examiner will add to this series as that reporting is finished. For now the map is three shows and a short list from each — electrical, gift, and convenience — with the hands-on work still ahead.',
+    ],
+  },
 ];
 
 export const SECTIONS: Section[] = [
